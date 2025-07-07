@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>st1red</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- VSTUPNÍ OBRAZOVKA -->
+  <div class="intro" onclick="enterSite()">
+    <p> CLICK TO ENTER </p>
+  </div>
+
+  <!-- HLAVNÍ OBSAH -->
+  <div class="content hidden">
+    <audio autoplay loop>
+      <source src="audio/track.mp3" type="audio/mpeg" />
+    </audio>
+
+    <div class="profile-box">
+      <img src="profile.jpg" class="profile-img" alt="profil" />
+      <h1 class="glitch-text">st1red</h1>
+      <p class="quote">Combton je mrdka</p>
+      <p class="counter">Views: <span id="counter">0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
