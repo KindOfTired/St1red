@@ -8,19 +8,21 @@
 </head>
 <body>
 
+  <!-- VSTUPNÍ OBRAZOVKA -->
   <div class="intro" onclick="enterSite()">
-    <p>CLICK TO ENTER</p>
+    <p>💀 CLICK TO ENTER 💀</p>
   </div>
 
+  <!-- HLAVNÍ OBSAH -->
   <div class="content hidden">
-    <audio autoplay loop>
-      <source src="audio/track.mp3" type="audio/mpeg" />
+    <audio id="bgmusic" loop>
+      <source src="click.mp3" type="audio/mpeg" />
     </audio>
 
     <div class="profile-box">
       <img src="profile.jpg" class="profile-img" alt="profil" />
       <h1 class="glitch-text">st1red</h1>
-      <p class="quote">Combtone zabij se</p>
+      <p class="quote">I can’t see any more</p>
       <p class="counter">Zobrazení: <span id="counter">0</span></p>
     </div>
   </div>
